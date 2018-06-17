@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.com/GeorgeBgk/dirls.svg?branch=master)](https://travis-ci.com/GeorgeBgk/jebase)
 ### Install
 ```bash
-npm i dirls
+npm i @georgenet/dirls
 ```
 
 ### Usage

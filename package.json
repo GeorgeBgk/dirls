@@ -1,5 +1,5 @@
 {
-  "name": "dirls",
+  "name": "@georgenet/dirls",
   "version": "1.0.0",
   "description": "Get contents of a directory",
   "main": "index.js",
