@@ -1,0 +1,25 @@
+{
+  "name": "dirls",
+  "version": "1.0.0",
+  "description": "Get contents of a directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeBgk/dirls.git"
+  },
+  "keywords": [
+    "ls"
+  ],
+  "author": "George Bougakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeorgeBgk/dirls/issues"
+  },
+  "homepage": "https://github.com/GeorgeBgk/dirls#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
