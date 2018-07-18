@@ -1,5 +1,5 @@
 ## dirls - Get directory contents and metadata
-[![Build Status](https://travis-ci.com/GeorgeBgk/dirls.svg?branch=master)](https://travis-ci.com/GeorgeBgk/jebase)
+[![Build Status](https://travis-ci.com/gbougakov/dirls.svg?branch=master)](https://travis-ci.com/gbougakov/jebase)
 ### Install
 ```bash
 npm i @georgenet/dirls
