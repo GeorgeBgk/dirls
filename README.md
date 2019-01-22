@@ -7,7 +7,7 @@ npm i @georgenet/dirls
 
 ### Usage
 ```js
-const dirls = require('dirls')
+const dirls = require('@georgenet/dirls')
 console.log(dirls('path'))
 ```
 Out:

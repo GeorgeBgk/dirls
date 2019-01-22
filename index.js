@@ -1,11 +1,11 @@
 const fs = require('fs')
 const path = require('path')
+
 function dirls(dir) {
-  let files = fs.readdirSync(dir)
-  let output = []
-  for (let i in files) {
-    let file = files[i]
-    let stats = fs.statSync(path.join(dir, file))
+  const files = fs.readdirSync(dir)
+  const output = []
+  for (const file of files) {
+    const stats = fs.statSync(path.join(dir, file))
     let type = ''
     if (stats.isBlockDevice() || stats.isCharacterDevice()) {
       type = 'device'
@@ -22,12 +22,15 @@ function dirls(dir) {
     } else {
       type = 'unknown'
     }
+
     output.push({
       name: file,
-      type: type,
-      stats: stats
+      type,
+      stats
     })
   }
+
   return output
 }
+
 module.exports = dirls

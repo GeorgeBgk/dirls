@@ -4,7 +4,7 @@
   "description": "Get contents of a directory",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava && xo"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/GeorgeBgk/dirls#readme",
   "devDependencies": {
-    "ava": "^0.25.0"
+    "ava": "^0.25.0",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "ignores": ["docs", ".vuepress", "testdir"]
   }
 }
